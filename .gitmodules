@@ -1,0 +1,24 @@
+[submodule "deps/glfw"]
+	path = deps/glfw
+	url = https://github.com/glfw/glfw.git
+[submodule "deps/imgui/imgui"]
+	path = deps/imgui/imgui
+	url = https://github.com/jlvoiseux/imgui.git
+[submodule "deps/stb/stb"]
+	path = deps/stb/stb
+	url = https://github.com/nothings/stb.git
+[submodule "deps/tracy"]
+	path = deps/tracy
+	url = https://github.com/wolfpld/tracy.git
+[submodule "deps/OpenUSD"]
+	path = deps/OpenUSD
+	url = https://github.com/jlvoiseux/OpenUSD.git
+[submodule "deps/sol2"]
+	path = deps/sol2
+	url = https://github.com/ThePhD/sol2.git
+[submodule "deps/lua"]
+	path = deps/lua
+	url = https://github.com/lua/lua.git
+[submodule "deps/volk"]
+	path = deps/volk
+	url = https://github.com/zeux/volk.git

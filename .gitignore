@@ -1,0 +1,5 @@
+cmake-build-*
+.idea
+.vs
+deps/install
+res/usd
