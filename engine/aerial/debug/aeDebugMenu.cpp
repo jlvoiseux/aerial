@@ -424,7 +424,8 @@ void aeDebugMenu::update(aeVulkan* pVk, aeHydraRenderer* pHydraRenderer, aeGameI
 			ImGui::SetWindowFocus("Scene Tree");
 		}
 
-		ImVec2 viewportSize = ImGui::GetContentRegionAvail();
+		ImVec2 regAvail = ImGui::GetContentRegionAvail();
+		ImVec2 viewportSize = ImVec2{std::max(1.f, regAvail.x), std::max(1.f, regAvail.y)};
 
 		if (m_lastViewportSize.x != viewportSize.x || m_lastViewportSize.y != viewportSize.y || !m_outputTextureResources.descriptorSet)
 		{
