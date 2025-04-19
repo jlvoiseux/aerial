@@ -12,7 +12,7 @@ This project is a toy game engine with the following features:
 ## Build
 First, clone the repository and all its submodules
 ```
-git clone https://github.com/jlvoiseux/aerial-cmake.git --recursive
+git clone https://github.com/jlvoiseux/aerial.git --recursive
 ```
 - Then, generate the solution on the platform of your choice using CMake. The engine should build and work out of the box. (tested only on a full Visual Studio toolchain)
 - USD scenes can be placed in `res/usd`
